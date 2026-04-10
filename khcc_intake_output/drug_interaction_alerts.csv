@@ -1,0 +1,22 @@
+patient_id,initials,diagnosis,ecog_ps,risk_level,medications,interaction_alert,severity,intake_date
+KHCC-001,S.A.M.,Breast Cancer,1,low,doxorubicin; cyclophosphamide; trastuzumab; ondansetron; aprepitant,[MODERATE] Doxorubicin + Trastuzumab: Additive cardiotoxicity — increased risk of cardiomyopathy and heart failure. → Do not administer concurrently,MODERATE,2025-06-02
+KHCC-001,S.A.M.,Breast Cancer,1,low,doxorubicin; cyclophosphamide; trastuzumab; ondansetron; aprepitant,stagger by ≥24h,MINOR,2025-06-02
+KHCC-001,S.A.M.,Breast Cancer,1,low,doxorubicin; cyclophosphamide; trastuzumab; ondansetron; aprepitant,monitor LVEF every 3 months,MINOR,2025-06-02
+KHCC-001,S.A.M.,Breast Cancer,1,low,doxorubicin; cyclophosphamide; trastuzumab; ondansetron; aprepitant,[MINOR] Ondansetron + Aprepitant: Minor CYP3A4 interaction,MINOR,2025-06-02
+KHCC-001,S.A.M.,Breast Cancer,1,low,doxorubicin; cyclophosphamide; trastuzumab; ondansetron; aprepitant,generally well tolerated. → Standard antiemetic combination — no dose adjustment typically required,MINOR,2025-06-02
+KHCC-002,M.K.T.,Non-Hodgkin Lymphoma,2,high,vincristine; fluconazole; cyclophosphamide; prednisone; rituximab,[MAJOR] Vincristine + Fluconazole: Fluconazole inhibits CYP3A4 → vincristine accumulation → severe neurotoxicity. → Avoid,MAJOR,2025-06-02
+KHCC-002,M.K.T.,Non-Hodgkin Lymphoma,2,high,vincristine; fluconazole; cyclophosphamide; prednisone; rituximab,switch to echinocandin antifungal,MINOR,2025-06-02
+KHCC-003,R.H.A.,Colorectal Cancer,1,low,capecitabine; warfarin; omeprazole; bevacizumab,[MAJOR] Warfarin + Capecitabine: Capecitabine inhibits CYP2C9 → increased warfarin levels → bleeding risk. → Monitor INR closely,MAJOR,2025-06-02
+KHCC-003,R.H.A.,Colorectal Cancer,1,low,capecitabine; warfarin; omeprazole; bevacizumab,consider dose reduction or switch to LMWH,MINOR,2025-06-02
+KHCC-004,L.B.N.,Lung Adenocarcinoma,1,low,erlotinib; omeprazole; ondansetron,[MODERATE] Erlotinib + Omeprazole: PPIs raise gastric pH → reduced erlotinib absorption (needs acidic environment). → Administer erlotinib 2h before or 10h after PPI,MODERATE,2025-06-02
+KHCC-004,L.B.N.,Lung Adenocarcinoma,1,low,erlotinib; omeprazole; ondansetron,consider H2 blocker instead,MINOR,2025-06-02
+KHCC-006,A.N.F.,Chronic Myeloid Leukemia,0,low,imatinib; warfarin,[MODERATE] Imatinib + Warfarin: Imatinib inhibits CYP2C9 → elevated warfarin levels. → Use LMWH instead of warfarin when anticoagulation required,MODERATE,2025-06-02
+KHCC-007,H.S.R.,Breast Cancer,0,low,tamoxifen; paroxetine; calcium carbonate; vitamin D,[MAJOR] Tamoxifen + Paroxetine: Paroxetine is potent CYP2D6 inhibitor — substantially reduces tamoxifen efficacy. → Avoid combination,MAJOR,2025-06-02
+KHCC-007,H.S.R.,Breast Cancer,0,low,tamoxifen; paroxetine; calcium carbonate; vitamin D,switch to venlafaxine or gabapentin for hot flashes,MINOR,2025-06-02
+KHCC-008,D.M.P.,Ovarian Cancer,1,low,methotrexate; ibuprofen; ondansetron; leucovorin,[MAJOR] Methotrexate + Ibuprofen: NSAID reduces methotrexate renal clearance → methotrexate toxicity. → Avoid combination,MAJOR,2025-06-02
+KHCC-008,D.M.P.,Ovarian Cancer,1,low,methotrexate; ibuprofen; ondansetron; leucovorin,hold ibuprofen ≥24h before MTX,MINOR,2025-06-02
+KHCC-018,G.L.T.,Non-Hodgkin Lymphoma,2,moderate,rituximab; cyclophosphamide; vincristine; prednisone; fluconazole; metformin; lisinopril,[MAJOR] Vincristine + Fluconazole: Fluconazole inhibits CYP3A4 → vincristine accumulation → severe neurotoxicity. → Avoid,MAJOR,2025-06-04
+KHCC-018,G.L.T.,Non-Hodgkin Lymphoma,2,moderate,rituximab; cyclophosphamide; vincristine; prednisone; fluconazole; metformin; lisinopril,switch to echinocandin antifungal,MINOR,2025-06-04
+KHCC-018,G.L.T.,Non-Hodgkin Lymphoma,2,moderate,rituximab; cyclophosphamide; vincristine; prednisone; fluconazole; metformin; lisinopril,[MODERATE] Prednisone + Metformin: Corticosteroids cause hyperglycemia,MODERATE,2025-06-04
+KHCC-018,G.L.T.,Non-Hodgkin Lymphoma,2,moderate,rituximab; cyclophosphamide; vincristine; prednisone; fluconazole; metformin; lisinopril,may cause lactic acidosis risk with metformin if renal function worsens. → Monitor blood glucose closely,MINOR,2025-06-04
+KHCC-018,G.L.T.,Non-Hodgkin Lymphoma,2,moderate,rituximab; cyclophosphamide; vincristine; prednisone; fluconazole; metformin; lisinopril,may need temporary insulin during high-dose steroid treatment,MINOR,2025-06-04
